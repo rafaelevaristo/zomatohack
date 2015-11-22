@@ -1,0 +1,36 @@
+<div>
+	
+	<div class="text-center">
+		<div>
+			<h2>#zomatocook #	{{offers.cityName}}</h2></div>
+		<div><img src="/html/images/zomatologo.png" alt="#zomatocooker"></div>		
+	</div>
+	
+	
+	 <table class="table table-bordered">
+        <thead>
+            <tr>
+
+                <th>Offer</th>
+                <th>Estimated value</th>
+                <th>Description</th>
+                <th>Cook</th>
+                
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="offer in offers.list">
+               <td>{{offer.Name}}</td>
+			   <td>{{offer.EstimatedValue}}</td>
+                <td>{{offer.Description}}</td>
+                 <td>{{offer.cook.Name}}</td>
+                
+                
+                
+            </tr>
+           
+        </tbody>
+    </table>
+	
+</div>

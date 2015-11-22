@@ -1,0 +1,1 @@
+var app = angular.module("zomatoApp", ['ui.router','zomatoApi','cookApi']);

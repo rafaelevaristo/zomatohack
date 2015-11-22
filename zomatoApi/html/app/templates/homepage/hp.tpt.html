@@ -1,0 +1,18 @@
+<div>
+	<div class="text-center">
+		<div>
+			<h1>#zomatocook</h1></div>
+		<div><img src="/html/images/zomatologo.png" alt="#zomatocooker"></div>
+		<div><small>My place or your's?</small></div>
+		<div>
+			<input type="text" ng-model="hereIAm" />
+			<button ng-click="home.GetOffers(hereIAm)">Go</button>
+			
+		</div>
+	</div>
+	<div class="text-right hidden-xs hidden-sm">
+		<div>Lunch in {{hereIAm}}?</div>
+		<div>Have a drink in {{hereIAm}}?</div>
+		<div>Let's have a happy hour in {{hereIAm}}?</div>
+	</div>
+</div>
